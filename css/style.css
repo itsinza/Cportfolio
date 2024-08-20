@@ -341,7 +341,7 @@ h3.my-profession
   font-size: 20px;
   color: var(--text-black-700);
 }
-.home .home-img 
+/* .home .home-img 
 {
   flex: 0 0 40%;
   max-width: 40%;
@@ -377,7 +377,7 @@ h3.my-profession
   height: 400px;
   width: 350px;
   margin-bottom: -380px;
-}
+} */
 /* About  */
 .about .about-content
 {
@@ -832,3 +832,27 @@ background: var(--skin-color);
     max-width: 100%;
   }
 }
+
+/* blob */
+.blob{
+  background-image: url(https://github.com/itsinza/Inza-img/blob/main/Inza12.jpg);
+  width: 380px;
+  height: 380px;
+  background-size: cover;
+  -webkit-background-position: center;
+  background-position: center center;
+  margin: 20px;
+  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+  0%, 100%{
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50%{
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}
+
