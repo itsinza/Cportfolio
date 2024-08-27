@@ -856,3 +856,37 @@ background: var(--skin-color);
   }
 }
 
+/* Social Media Icons Styles */
+.home-info ul {
+    list-style: none; /* Removes bullet points from list */
+    padding: 0; /* Removes padding */
+    margin: 20px 0 0; /* Adds space above the icons */
+    display: flex; /* Displays icons in a horizontal row */
+    gap: 15px; /* Adds space between icons */
+}
+
+.home-info ul li {
+    display: inline-block; /* Ensures each icon is inline */
+}
+
+.home-info ul li a {
+    color: #b0b2c3; /* Default icon color */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    display: flex; /* Centers icons */
+    align-items: center; /* Aligns icon vertically in the center */
+}
+
+.home-info ul li a:hover {
+    color: #fff; /* Change icon color on hover */
+}
+
+.home-info ul li svg {
+    width: 30px; /* Size of the icons */
+    height: 30px; /* Ensures icons are square */
+    fill: currentColor; /* Inherits color from parent element */
+    transition: transform 0.3s ease; /* Smooth transform transition on hover */
+}
+
+.home-info ul li a:hover svg {
+    transform: scale(1.1); /* Slightly increases size on hover */
+}
