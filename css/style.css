@@ -627,8 +627,7 @@ background: var(--skin-color);
 {
   font-size: 18px;
   margin-bottom: 15px;
-/*   color: var(--text-black-900) */
-  color: #ffffff;
+  color: var(--text-black-900)
   font-weight: 700;
   text-transform: capitalize;
 }
